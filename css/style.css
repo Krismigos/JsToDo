@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  width: 500px;
+}
+body {
+  background-color: rgb(146, 0, 255);
+}
+
+h1 {
+  text-align: center;
+  margin: 15px;
+}
+.todoDone {
+  text-decoration: line-through;
+}
+.container {
+  width: 500px;
+  margin: 30px auto;
+  padding: 15px;
+  background-color: rgb(255, 255, 247, 0.7);
+  border-radius: 5px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-label {
+  display: flex;
+}
+
+.but {
+  display: flex;
+  gap: 12px;
+}
+.checkbox {
+  width: 20px;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
